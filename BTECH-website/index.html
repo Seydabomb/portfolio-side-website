@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="This is my resume." />
+        <meta name="author" content="" />
+        <title>My Resume</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme w/Bootstrap-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <style type="text/css">
+            body {
+                padding-top: 3.375rem;
+                color: #6c757d;
+            }
+
+            @media (min-width: 992px){
+                body{
+                    padding-top: 0;
+                    padding-left: 17rem;
+                }
+            }
+
+            h1,h2,h3,h4,h5,h6{
+                text-transform: uppercase;
+            }
+
+            .text-primary{
+                color: #967bb6 !important;
+            }
+
+            h1{
+                line-height: 1;
+            }
+
+            p.lead{
+                font-size: 1.15rem;
+                font-weight: 400;
+            }
+
+            .subheading{
+                font-family:"Saira Extra Condensed", -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji";
+                text-transform: uppercase;
+                font-weight: 500;
+                font-size: 1.5rem;
+            }
+
+            #sideNav .navbar-nav .nav-item .nav-link{
+                font-weight: 800;
+                letter-spacing: 0.05rem;
+                text-transform: uppercase;
+            }
+            
+            #sideNav .navbar-toggler:focus{
+                outline-color: #d48a6e;
+            }
+
+            @media (min-width:992px){
+                #sideNav{
+                    text-align: center;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    flex-direction: column;
+                    width: 17rem;
+                    height: 100vh;
+                }
+
+                #sideNav .navbar-brand{
+                    display: flex;
+                    margin: auto auto 0;
+                    padding: 0.5rem;
+                }
+
+                #sideNav .navbar-brand .img-profile{
+                    max-width: 10rem;
+                    max-height: 10rem;
+                    border: 0.5rem solid rgba(255,255,255,0.2);
+                }
+
+                #sideNav .navbar-collapse{
+                    display: flex;
+                    align-items: flex-start;
+                    flex-grow: 0;
+                    width: 100%;
+                    margin-bottom: auto;
+                }
+
+                #sideNav .navbar-collapse .navbar-nav{
+                    flex-direction: column;
+                    width: 100%;
+                }
+
+                #sideNav .navbar-collapse .navbar-nav .nav-item{
+                    display: block;
+                }
+
+                #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{
+                    display: block;
+                }
+            }
+
+            .social-icons .social-icon{
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                height: 3.5rem;
+                width: 3.5rem;
+                background-color: #967bb6;
+                color: #fff;
+                border-radius: 100%;
+                font-size: 1.5rem;
+                margin-right: 1.5rem;
+            }
+
+            .social-icons .social-icon:last-child{
+                margin-right: 0;
+            }
+
+            .social-icons .social-icon:hover{
+                background-color: #7FFFD4;
+            }
+
+            .dev-icons{
+                font-size: 3rem;
+            }
+
+            section.resume-section{
+                display: flex;
+                align-items: center;
+                padding: 5rem 1rem;
+                max-width: 75rem;
+            }
+
+            section.resume-section .resume-section-content{
+                width: 100%;
+            }
+
+            @media (min-width:768px){
+                section.resume-section{
+                    min-height: 100vh;
+                }
+            }
+
+            @media (min-width:992px){
+                section.resume-section{
+                    padding: 5rem 3rem;
+                }
+            }
+
+            .bg-primary{
+                background-color: #967bb6 !important;
+            }
+
+            a{
+                color: darkcyan;
+            }
+
+            .navbar-dark .navbar-nav .nav-link{
+                color: rgba(127,255,212,0.5);
+            }
+            
+            .navbar-dark .navbar-nav .nav-link.active{
+                color: #7FFFD4;
+            }
+
+            .navbar-dark .navbar-nav .nav-link:hover{
+                color:#7FFFD4;
+            }
+        </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation -->
+        <nav id="sideNav" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"> 
+            <a class="navbar-brand" href="#page-top"><span class="d-block d-lg-none">Seyona Creger</span><span class="d-non l-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg"/></span></a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggler-icon"></span></button>
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#interests" class="nav-link">Interests</a></li>
+                    <li class="nav-item"><a href="#awards" class="nav-link">Awards</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content -->
+        <div class="container-fluid p-0" >
+            <!-- About -->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">Seyona <span class="text-primary">Creger</span></h1>
+                    <div class="subheading mb-5">
+                        101 North 1600 West Lewiston, UT 84320 (435) 754-9402 <a href="mailto:seyona.creger@gmail.com">seyona.creger@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">My passion lies in mathematics, where I recently earned my degree from Utah State University. Building on this foundation, I am currently expanding my skill set in web development at Bridgerland. My aspiration is to carve a path as a full stack web designer or front-end web designer, aiming to contribute my expertise to innovative projects at SDL.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="http://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="http://github.com"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0"/>
+            <!-- Experience -->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Student</h3>
+                            <div class="subheading mb-3"> 
+                                Bridgerland Technical College
+                            </div>
+                            <p>I am currently learning about web development at Bridgerland in Logan.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">April 15,2023 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">NOL Processor</h3>
+                            <div class="subheading mb-3"> 
+                                Utah State University
+                            </div>
+                            <p>I processed documentation for students who are taking a break from USU. This job included making phone calls, replying to emails, corresponding with other departments, and inputting codes to the USU system.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">November 2021 - November 2023</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Aggie First Scholars Mentor</h3>
+                            <div class="subheading mb-3"> 
+                                Utah State University
+                            </div>
+                            <p>I mentored first generation college students at USU. This job included scheduling meals, planning events, reaching out to students, keeping in touch with my supervisor, and giving appropriate advice.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2020 - May 2023</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0"/>
+            <!-- Education -->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Utah State University</h3>
+                            <div class="subheading mb-3">Bachelor of Science</div>
+                            <div>Mathematics</div>
+                            <p>GPA: 3.98</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">December 2023</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Utah State University</h3>
+                            <div class="subheading mb-3">Associate of Science</div>
+                            <p> </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2021</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr />
+            <!-- Skills -->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Language & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i>PHP</i></li>
+                        <li class="list-inline-item"><i class="fa fa-database"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li ><span class="fa-li"><i class="fas fa-check"></i></span>Responsive Design and Web Presence</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Cross Browser Testing & Debugging</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Front-End & Back-End Development</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Databases Development</li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0"/>
+            <!-- Interests -->
+            <section  class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>I enjoy playing video games, reading fantasy novels, and drumming. In terms of outdoor activities, I like snowboarding, swimming, hiking, biking, and climbing.</p>
+                    <p class="mb-0">In addition, I enjoy stylizing microsoft powerpoints and google slides. I was always the person in projects making everything look nice. Also, I like any activity that requires typing. </p>
+                </div>
+            </section>
+            <hr class="m-0"/>
+            <!-- Awards-->
+            <section  class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li><span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>MOS Certification</li>
+                        <li><span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>Honor Roll at USU</li>
+                        <li><span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>Aggie First Scholars: Mentor of the Year</li>
+                        <li><span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>Perfect Attendance</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
